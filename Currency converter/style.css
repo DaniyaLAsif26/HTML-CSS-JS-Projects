@@ -74,7 +74,7 @@ form input {
 }
 
 .msg {
-    margin: 50px 0px 50px 0px;
+    margin: 45px 0px 45px 0px;
 }
 
 form button {
@@ -86,4 +86,19 @@ form button {
     background-color: rgb(80, 235, 60);
     border-radius: 10px;
     cursor: pointer;
+}
+
+.msg {
+    height: 40px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
 }
