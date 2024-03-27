@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.navbar img {
+    height: 69px;
+    width: 280px;
+    border-radius: 8px;
+}
+
+.navbar {
+    height: 85px;
+    background-color: black;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box {
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+}
+
+.gamebox {
+    /* font-size: 70px; */
+    display: grid;
+    grid-template-rows: repeat(3, 9vw);
+    grid-template-columns: repeat(3, 9vw);
+}
+
+.boxtext {
+    font-size: 100px;
+}
+
+.won {
+
+    width: 126px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 26px;
+    /* color: rgb(43, 255, 0); */
+    background-color: rgb(100, 100, 100);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-t {
+    border-top: 0;
+}
+
+.b-b {
+    border-bottom: 0;
+}
+
+.b-l {
+    border-left: 0;
+}
+
+.b-r {
+    border-right: 0;
+}
+
+.end {
+    display: flex;
+}
+
+.game-mssg {
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    color: rgb(43, 255, 23);
+    font-size: 18px;
+}
+
+.turn {
+    color: rgb(251, 255, 16);
+    margin: 30px 0px;
+    font-size: 26px;
+}
+
+.game-mssg button {
+    height: 26px;
+    width: 69px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.game-mssg button:hover {
+    background-color: rgb(255, 120, 120);
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+@media screen and (max-width: 2560px) {
+    .game-mssg {
+        font-size: 24px;
+    }
+
+    .turn {
+        font-size: 32px;
+    }
+
+    .game-mssg button {
+        font-size: 20px;
+        height: 40px;
+        width: 90px;
+    }
+
+    .won {
+        font-size: 30px;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gamebox span {
+        font-size: 50px;
+    }
+
+    .game-mssg {
+        font-size: 20px;
+    }
+
+    .turn {
+        font-size: 28px;
+    }
+
+    .game-mssg button {
+        font-size: 15px;
+        height: 35px;
+        width: 80px;
+    }
+
+    .won {
+        font-size: 20px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .game-mssg {
+        font-size: 15px;
+    }
+
+    .game {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .gamebox {
+        grid-template-rows: repeat(3, 11vw);
+        grid-template-columns: repeat(3, 11vw);
+
+    }
+
+    .turn {
+        font-size: 22px;
+    }
+
+    .game {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 570px) {
+.game{
+    margin-top: 25px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.gamebox span {
+    font-size: 40px;
+}
+
+.game-mssg {
+    font-size: 15px;
+}
+
+.turn {
+    font-size: 22px;
+}
+
+.game-mssg button {
+    font-size: 10px;
+    height: 30px;
+    width: 70px;
+}
+
+.won {
+    font-size: 18px;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+    .gamebox {
+        grid-template-rows: repeat(3, 13vw);
+        grid-template-columns: repeat(3, 13vw);
+        font-size: 2rem;
+    }
+}
