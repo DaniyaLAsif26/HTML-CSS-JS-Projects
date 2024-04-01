@@ -1,0 +1,15 @@
+Total degree hour,minute and seconds hand rotate = 360
+
+FOR HOURS HAND :-
+hour rotation = 360/12 = 30
+1 hour rotation = 30 (m hours = 30m)
+minutes rotation = 60/30 = 1/2 (m minutes = m/2)
+Total hours hand rotation = (30h + m/2)
+
+FOR MINUTES HAND :-
+for minutes = 60/360 = 6
+1 minute rotation = 6 (m minutes = 6m)
+
+FOR SECONDS HAND :-
+for seconds = 60/360
+1 second rotation = 6 (s seconds = 6s)
