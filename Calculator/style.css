@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(120, 193, 242, 255);
+}
+
+.container {
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.container input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 175px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: end;
+    font-size: 45px;
+    box-sizing: border-box;
+    padding: 110px 50px 10px 0px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row button {
+    height: 75px;
+    width: 75px;
+    border-radius: 200px;
+    margin: 0px 10px 20px 0px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+
+.calci {
+    margin-top: 69px;
+}
+
+.row .last {
+    background-color: rgba(255, 149, 1, 255);
+    color: white;
+    font-size: 32px;
+}
+
+.row .no {
+    background-color: rgba(51, 51, 51, 255);
+    color: white;
+    font-size: 26px;
+}
+
+.buttons .row-last button {
+    margin-bottom: 40px;
+}
+
+.row-last .big-btn {
+    width: 162px;
+    height: 70px;
+}
+
+.row .last:hover{
+    background-color: rgba(255, 153, 0, 0.747)
+}
+
+.row .no:hover{
+    background-color:rgb(77, 73, 73);
+}
+
+.container input:hover{
+    border: 2px solid gray;
+}
