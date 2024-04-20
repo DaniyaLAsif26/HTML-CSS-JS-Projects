@@ -1,0 +1,13 @@
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.cont-button{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
